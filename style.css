@@ -1,0 +1,71 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@1,500&family=Edu+NSW+ACT+Foundation&family=Merriweather:ital@1&family=Montserrat&family=Poppins:wght@600&display=swap');
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: 'Bitter', serif;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  text-align: center;
+  background: url(cqEQgo.png);
+  background-size: cover;
+}
+
+.container {
+  width: 40em;
+  text-align: center;
+  height: auto;
+  background-color: #EDE4FF;
+  border-radius: 15px;
+  box-shadow: 1px 3px 15px white;
+}
+
+.header {
+  padding: 20px;
+  margin-bottom: 10px;
+  font-size: 35px;
+  text-align: center;
+  color: #40128B;
+}
+
+.main-content {
+  padding: 20px;
+  margin-bottom: 5px;
+  font-size: 35px;
+  text-align: center;
+  height: auto;
+  color: #22577E;
+  font-weight: 200;
+}
+
+button {
+  background: #9681EB;
+  border-radius: 0%;
+  font-family: 'Bitter', sans serif;
+  color: black;
+  font-size: 30px;
+  margin: 5px;
+  padding: 5px;
+  text-align: center;
+  width: 300px;
+  height: 50px;
+  cursor: pointer;
+  border: none;
+  transition: 0.2s all;
+  margin-bottom: 20px;
+}
+
+button:active {
+  transform: scale(0.9);
+  box-shadow: 3px 2px 15px 1px rgba(0, 0, 0, 0.24);
+}
+
+button:hover {
+  background-color: #319DA0;
+}
